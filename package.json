@@ -2,7 +2,10 @@
   "name": "azkar_ext",
   "displayName": "azkar_ext",
   "description": "",
-  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziadh/azkar_vscextension.git"},
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.76.0"
   },
