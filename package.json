@@ -1,34 +1,42 @@
 {
-  "name": "azkar_ext",
-  "displayName": "azkar_ext",
+  "name": "azkar",
+  "displayName": "Azkar",
+  "publisher": "ZiadHussein",
+  "icon": "assets/logo.png",
   "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ziadh/azkar_vscextension.git"},
-  "version": "1.0.0",
+    "url": "https://github.com/ziadh/azkar_vscextension.git"
+  },
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.76.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": ["onStartupFinished"],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./extension.js",
-  "contributes": {  },
+  "contributes": {},
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
     "test": "node ./test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.76.0",
     "@types/glob": "^8.1.0",
     "@types/mocha": "^10.0.1",
     "@types/node": "16.x",
+    "@types/vscode": "^1.76.0",
+    "@vscode/test-electron": "^2.2.3",
     "eslint": "^8.34.0",
     "glob": "^8.1.0",
     "mocha": "^10.2.0",
-    "typescript": "^4.9.5",
-    "@vscode/test-electron": "^2.2.3"
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "vsce": "^2.15.0"
   }
 }
