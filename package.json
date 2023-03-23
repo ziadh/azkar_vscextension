@@ -3,12 +3,12 @@
   "displayName": "Azkar",
   "publisher": "ZiadHussein",
   "icon": "assets/logo.png",
-  "description": "",
+  "description": "Simple extension that shows Islamic azkar at the bottom left of your VS Code statusbar",
   "repository": {
     "type": "git",
     "url": "https://github.com/ziadh/azkar_vscextension.git"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.76.0"
   },
