@@ -23,6 +23,11 @@ Toggle language is coming soon with the Azkar showing in different languages
 
 Users appreciate release notes as you update your extension.
 
+### 1.0.2 
+
+- A better logo
+
+
 ### 1.0.1
 
 - Updated extension logo

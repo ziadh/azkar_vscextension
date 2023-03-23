@@ -1,9 +1,16 @@
-# Change Log
 
-All notable changes to the "my-first-ext" extension will be documented in this file.
+### 1.0.2 
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- A better logo
 
-## [Unreleased]
 
-- Initial release
+### 1.0.1
+
+- Updated extension logo
+- Updated README
+
+### 1.0.0
+
+Azkar showing in Arabic and changing every 5 seconds
+
+
