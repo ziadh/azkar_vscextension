@@ -2,6 +2,8 @@
 
 # Azkar
 
+[Check out the extension here](https://marketplace.visualstudio.com/items?itemName=ZiadHussein.azkar)
+
 
 Simple extension that shows Islamic azkar at the bottom left of your VS Code statusbar.
 
