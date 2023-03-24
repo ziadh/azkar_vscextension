@@ -1,4 +1,15 @@
 
+### 1.0.4
+
+- Finally fixed README showing wrong links
+
+
+### 1.0.3 
+
+- Added extension description
+- Updated README
+
+
 ### 1.0.2 
 
 - A better logo

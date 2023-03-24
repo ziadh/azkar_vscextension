@@ -1,6 +1,7 @@
-![logo](https://raw.githubusercontent.com/ziadh/azkar_vscextension/main/assets/logo.png)
 
-# Azkar README
+
+# Azkar
+
 
 Simple extension that shows Islamic azkar at the bottom left of your VS Code statusbar.
 
@@ -23,9 +24,6 @@ After downloading the extension, the Zikr should be in the bottom left of your V
 
 Toggle language is coming soon with the Azkar showing in different languages
 
-## Release Notes
-
-Users appreciate release notes as you update your extension.
 
 ### 1.0.4
 
