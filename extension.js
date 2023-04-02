@@ -1,18 +1,43 @@
-const vscode = require('vscode');
+let vscode = require('vscode');
 
 function activate(context) {
-    let statusBar = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left);
-    statusBar.show();
-    context.subscriptions.push(statusBar);
+    let currentSide = 'left';
 
-    let messages = ["سبحان الله","الحمد لله","لا اله الا الله","الله اكبر"];
+    let AzkarLeftSideBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left, 0);
+    AzkarLeftSideBarItem.show();
+
+    let AzkarRightSideBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 0);
+    AzkarRightSideBarItem.hide();
+
+    let messages = ["سبحان الله", "الحمد لله", "لا اله الا الله", "الله اكبر"];
     let index = 0;
     setInterval(() => {
-    statusBar.text=messages[index]
-    index=(index+1)%messages.length;
-    }, Math.floor(Math.random()*1000)+5000);
+        if (currentSide === 'left') {
+            AzkarLeftSideBarItem.text = messages[index];
+        } else {
+            AzkarRightSideBarItem.text = messages[index];
+        }
+        index = (index + 1) % messages.length;
+    }, Math.floor(Math.random() * 1000) + 5000);
+
+    let toggleSideCommand = vscode.commands.registerCommand('extension.toggleSide', function () {
+        if (currentSide === 'left') {
+            currentSide = 'right';
+            AzkarLeftSideBarItem.hide();
+            AzkarRightSideBarItem.show();
+        } else {
+            currentSide = 'left';
+            AzkarRightSideBarItem.hide();
+            AzkarLeftSideBarItem.show();
+        }
+    });
+
+    context.subscriptions.push(toggleSideCommand);
 }
 
+function deactivate() {}
+
 module.exports = {
-    activate
-};
+    activate,
+    deactivate
+}

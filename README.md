@@ -26,6 +26,9 @@ After downloading the extension, the Zikr should be in the bottom left of your V
 
 Toggle language is coming soon with the Azkar showing in different languages
 
+### 1.0.5
+
+- You can now toggle which side of the statusbar the Azkar goes on
 
 ### 1.0.4
 

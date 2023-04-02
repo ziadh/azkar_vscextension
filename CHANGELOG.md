@@ -1,3 +1,7 @@
+### 1.0.5
+
+- You can now toggle which side of the statusbar the Azkar goes on
+
 
 ### 1.0.4
 
