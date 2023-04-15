@@ -26,8 +26,10 @@ After downloading the extension, the Zikr should be in the bottom left of your V
 
 Toggle language is coming soon with the Azkar showing in different languages
 
+### 1.0.8
+  - Added صلي على النبي ﷺ zikr 
 
-### 1.0.6
+### 1.0.7
 -Patched security threat affecting xm12jx < 0.5.0
 
 ### 1.0.5

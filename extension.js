@@ -9,7 +9,7 @@ function activate(context) {
     let AzkarRightSideBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 0);
     AzkarRightSideBarItem.hide();
 
-    let messages = ["سبحان الله", "الحمد لله", "لا اله الا الله", "الله اكبر"];
+    let messages = ["سبحان الله", "الحمد لله", "لا اله الا الله", "الله اكبر","صلي على النبي ﷺ"];
     let index = 0;
     setInterval(() => {
         if (currentSide === 'left') {

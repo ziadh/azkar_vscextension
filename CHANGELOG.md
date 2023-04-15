@@ -1,3 +1,6 @@
+### 1.0.8
+  - Added صلي على النبي ﷺ zikr 
+
 ### 1.0.7
 -Patched security threat affecting xm12jx < 0.5.0
 
