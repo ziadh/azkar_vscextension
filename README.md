@@ -17,14 +17,17 @@ The statusbar text loops through multiple Azkar every 5 seconds
 ![app-ss-2](https://raw.githubusercontent.com/ziadh/azkar_vscextension/main/assets/ss2.png)
 
 
+Now supports Azkar in English! Simply toggle the language using the Command Palette
+![ss-english](https://raw.githubusercontent.com/ziadh/azkar_vscextension/main/assets/ss_english.png)
 
 ## Setup
 
 After downloading the extension, the Zikr should be in the bottom left of your VS Code
 
-## Upcoming Features
+### 1.0.9
+  - You can now toggle Zikr language to English through the Commmand Palette
+  - Added استغفر اللهzikr 
 
-Toggle language is coming soon with the Azkar showing in different languages
 
 ### 1.0.8
   - Added صلي على النبي ﷺ zikr 

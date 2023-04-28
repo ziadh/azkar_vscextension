@@ -1,3 +1,7 @@
+### 1.0.9
+  - You can now toggle Zikr language to English through the Commmand Palette
+  - Added استغفر اللهzikr 
+
 ### 1.0.8
   - Added صلي على النبي ﷺ zikr 
 
