@@ -24,6 +24,10 @@ Now supports Azkar in English! Simply toggle the language using the Command Pale
 
 After downloading the extension, the Zikr should be in the bottom left of your VS Code
 
+
+### 1.0.10
+- Security update
+
 ### 1.0.9
   - You can now toggle Zikr language to English through the Commmand Palette
   - Added استغفر اللهzikr 

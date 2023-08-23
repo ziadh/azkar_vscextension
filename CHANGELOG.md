@@ -1,3 +1,6 @@
+### 1.0.10
+- Security update
+
 ### 1.0.9
   - You can now toggle Zikr language to English through the Commmand Palette
   - Added استغفر اللهzikr 
